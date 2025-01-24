@@ -44,11 +44,18 @@ Bom aplicativo para configurar o jogo basta clicar aqui
 ![image](https://github.com/user-attachments/assets/5ae4736b-2180-43f1-a1ec-9974db0fd120)
 
 1 - selecione a porta correta que seu Arduino está conectado
+
 2 - deve estar marcado para que o sistema atue e ligue
+
 3 - botões que inverter o sentido de giro do sistema separadamente em cada eixo
+
 4 - botões para ligar e desligar cada eixo independente deve estar ativado para o eixo funcionar
+
 5 - OFFSET de potência caso um eixo estiver atuando mais ou menos que outro pode fazer a regulagem
+
 6 - botão para teste ao apertar por alguns segundos irá vibrar todos os eixos 
+
 7 - botão que fará abrir o gráfico da saída dos eixos mostrando a posição em um graf de 3 eixos
+
 ![image](https://github.com/user-attachments/assets/c604fd23-373a-4d3b-8db8-6c79501fabd4)
 
