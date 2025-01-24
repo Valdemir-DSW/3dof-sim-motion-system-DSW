@@ -16,7 +16,11 @@ caso o giro de algum deles fique invertido basta inverter no potenciômetro o pi
 e é claro que você precisa calibrar..
 No código defina  ![image](https://github.com/user-attachments/assets/cf19438f-d158-454e-95eb-ec07ba72a8db) = 1 
 abra o monitor serial com Arduino conectado
+
+
 ![image](https://github.com/user-attachments/assets/6332ddad-86cd-4c6e-9eb1-d1e4952a9b6c)
+
+
 observe o menor valor que os eixos alcançam no input e defina ![image](https://github.com/user-attachments/assets/bb70486a-d8ce-48ab-87c8-86c662d34718)
 como esse valor faça a mesma coisa com valor máximo definindo ![image](https://github.com/user-attachments/assets/e4da68bb-c374-479c-9c48-1570e9d3b502)
 
