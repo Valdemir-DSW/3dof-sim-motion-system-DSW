@@ -10,6 +10,8 @@ imagem ilustrativa()
 deixei um código de exemplo para utilizar 3 drivers BTS7960 E motores DC( mas lembre-se você pode colocar qualquer motorização que pode funcionar com Arduino)
 ![image](https://github.com/user-attachments/assets/69628939-06d1-4377-b341-140221213b7f)
 
+sim os pinos L_EN e R_EN estão ligados juntos mesmo
+
 sistema planejado para ter noção de posição baseada em potenciômetro deve ser com a letra B de 5 a 20K 
 ![image](https://github.com/user-attachments/assets/ecbc064f-797f-448b-8248-45b3e7560d73)
 caso o giro de algum deles fique invertido basta inverter no potenciômetro o pino A e C
@@ -33,4 +35,5 @@ https://youtu.be/VhdpO9qy3Cs?si=xbZMnfJMTS--O50O
 aqui um vídeo para você retirar de inspiração e lembrando você não precisa utilizar todos os eixos você pode fazer um sistema apenas com eixo z para fazer uma cadeira que sobe desce!
 Esse vídeo não é meu e eu nem fiz parceria eu apenas coloquei porque achei legal e é o mesmo estilo de funcionamento que nós utilizamos aqui e você pode utilizar o nosso programa para fazer esse sistema mostrado no vídeo.
 
+O código é bem simplificado bem simplificado mesmo talvez você precise fazer alguns ajustes para que fique bom no seu sistema!
 
