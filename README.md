@@ -26,5 +26,11 @@ como esse valor faça a mesma coisa com valor máximo definindo ![image](https:/
 
 importante que todos os potenciômetro se movimentem para o mesmo lado caso estiverem movimentando para lados opostos você perceberá que os valores irão oscilar caso algum você perceber que está invertido você se lembra inverter os pinos no potenciometro A e C  o potenciômetro denominado x deve diminuir o valor ao movimentar a plataforma à esquerda o Y para trás e o Z ao empurrar para baixo
 
+![image](https://github.com/user-attachments/assets/128fb2e9-1168-4310-ad3c-2be1268ed823)
+
+eu também deixei previsto que você coloque um botão on off nesta posição ele deve estar ligado para o sistema atuar.
+https://youtu.be/VhdpO9qy3Cs?si=xbZMnfJMTS--O50O
+aqui um vídeo para você retirar de inspiração e lembrando você não precisa utilizar todos os eixos você pode fazer um sistema apenas com eixo z para fazer uma cadeira que sobe desce!
+Esse vídeo não é meu e eu nem fiz parceria eu apenas coloquei porque achei legal e é o mesmo estilo de funcionamento que nós utilizamos aqui e você pode utilizar o nosso programa para fazer esse sistema mostrado no vídeo.
 
 
