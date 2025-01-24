@@ -10,22 +10,17 @@ BTS7960 m3(2, 11, 13);
 void setup_act(){
 pinMode(A4, INPUT_PULLUP);
   
-  TCCR2B = (TCCR2B & 0b11111000) | 0x01;  // Configura prescaler para 1 (frequência de 18 kHz)
+TCCR3B = (TCCR3B & 0b11111000) | 0x01;  // Configura prescaler para 1
 
-  // Alterar a frequência PWM do pino 5 (Timer 0) para 18 kHz
-  TCCR0B = (TCCR0B & 0b11111000) | 0x01;  // Configura prescaler para 1 (frequência de 18 kHz)
+// Alterar a frequência PWM do pino 9 e 10 (Timer 1) para 18 kHz
+TCCR1B = (TCCR1B & 0b11111000) | 0x01;  // Configura prescaler para 1
 
-  // Alterar a frequência PWM do pino 9 (Timer 1) para 18 kHz
-  TCCR1B = (TCCR1B & 0b11111000) | 0x01;  // Configura prescaler para 1 (frequência de 18 kHz)
+// Alterar a frequência PWM do pino 3 e 11 (Timer 0) para 18 kHz
+TCCR0B = (TCCR0B & 0b11111000) | 0x01;  // Configura prescaler para 1
 
-  // Alterar a frequência PWM do pino 10 (Timer 1) para 18 kHz
-  TCCR1B = (TCCR1B & 0b11111000) | 0x01;  // Configura prescaler para 1 (frequência de 18 kHz)
-
-  // Alterar a frequência PWM do pino 11 (Timer 2) para 18 kHz
-  TCCR2B = (TCCR2B & 0b11111000) | 0x01;  // Configura prescaler para 1 (frequência de 18 kHz)
-
-  // Alterar a frequência PWM do pino 13 (Timer 0) para 18 kHz
-  TCCR0B = (TCCR0B & 0b11111000) | 0x01;  // Configura prescaler para 1 (frequência de 18 kHz)
+// Alterar a frequência PWM do pino 6 (Timer 4) para 18 kHz
+TCCR4B = (TCCR4B & 0b11111000) | 0x01;  // Configura prescaler para 1
+}
 void loop_act(){
 
 
