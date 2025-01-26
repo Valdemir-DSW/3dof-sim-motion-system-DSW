@@ -26,7 +26,7 @@ Ajuda a suavizar a resposta do sistema, reagindo à taxa de mudança do erro. Is
 Kd muito alto pode tornar o sistema lento.
 
 */
-double Kp = 25.0, Ki = 15.0, Kd = 2.0;
+double Kp = 7.7, Ki = 2.0, Kd = 0.1;
 ////////////////////////////////////////
 // ajustes complementares
 int debug = 0;
